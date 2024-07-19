@@ -17,7 +17,7 @@ def preprocessing(filename):
         columns_to_decode].applymap(lambda x: x.decode('utf-8') if isinstance(x, bytes) else x)
 
     # change column names: remove "icd10_"
-    stroke_data = stroke_data.rename(columns=lambda x: x.replace('icd10_', '') if x.startswith('icd10_') else x)
+    stroke_data = stroke_data.rename(columns=lambda x: x.replace('xxx', '') if x.startswith('yyy') else x)
 
     pattern = re.compile(r'^[A-Z0-9]{3}.*')
     illness_columns = [col for col in stroke_data.columns if pattern.match(col)]
