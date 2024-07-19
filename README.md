@@ -1,6 +1,8 @@
 # Segmented Neural Network-Driven Risk Factor Aggregation
 
 This is the repo of Xueting Ding, Yang Meng, Liner Xiang's work.
+
+The pilot results and figrues are in folder "data/" and "figures/".
  
 ## To run the experiments:
  
