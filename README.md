@@ -10,6 +10,8 @@ This is the repo of Xueting Ding, Yang Meng, Liner Xiang's work.
 
 3. Run "run_experiments.ipynb", uncomment "# preprocessing(filename)" to preprocess the data
 
+4. Run "roc_graph.ipynb"  to draw the ROC and PR plots.
+
 ## baseline.py
 
 Given the mapping of "a big disease group: a few codes", we pick one covariate/ code from the disease group using maximum aggregation. 
@@ -37,3 +39,11 @@ Build Logistic regression model.
 ## rf.py
 
 Build Random Forest classifier.
+
+## roc.py
+
+Draw the ROC plot of predictions made under test data.
+
+## pr.py
+
+Draw the PR plot of predictions made under test data.
