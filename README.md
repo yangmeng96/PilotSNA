@@ -2,7 +2,7 @@
 
 This is the repo of Xueting Ding, Yang Meng, Liner Xiang's work.
 
-The pilot results and figrues are in folder "data/" and "figures/".
+The pilot results and figrues are in folder "data/" and "figs/".
  
 ## To run the experiments:
  
